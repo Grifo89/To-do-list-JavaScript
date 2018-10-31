@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Todo list app</title>
+
+    <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+      <input type="text" name="input" placeholder="Actividad para hacer... " id="item">
+      <button id="add" style="background: url('./icons/add.png'); background-size: 40px 40px; background-repeat: no-repeat; background-position: center;"></button>
+    </header>
+
+    <div class="container">
+      <!-- Uncompleted tasks -->
+      <ul class="todo" id="todo"></ul>
+
+      <!-- Completed tasks -->
+      <ul class="todo" id="completed"></ul>
+    </div>
+
+
+
+    <!-- JavaScript -->
+    <script src="resources/js/main.js"></script>
+  </body>
+</html>
